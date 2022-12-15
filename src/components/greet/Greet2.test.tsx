@@ -12,7 +12,7 @@ test('Greet renders correctly', () => {
 test('Greet renders with a name', () => {
     render(<Greet2 name='Chris'/>)
     const textElement = screen.getByText('Hello Chris')
-    expect(textElement).toBeInTheDocument
+    expect(textElement).toBeInTheDocument // matcher function
 } )
 
 // describe('Greet', () => {
